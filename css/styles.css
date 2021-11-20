@@ -1,0 +1,46 @@
+body 
+{
+    font-family: calibri;
+    color: blanchedalmond;
+}
+header
+{
+    display: flex;
+    background-color: rgb(71, 71, 71);
+    height: 60px;
+    justify-content: space-between;
+}
+.head 
+{
+    display: flex;
+}
+nav 
+{
+    align-items: center;
+    display: flex;
+}
+ul 
+{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+}
+
+a 
+{
+    text-decoration: none;
+    color: blanchedalmond;
+    margin-right: 30px;
+}
+.logo 
+{
+    display: flex;
+    align-items: center;
+}
+h2
+{
+    margin: 0px;
+    margin-left: 10px;
+    
+}
