@@ -2,19 +2,13 @@ body
 {
    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     font-family: calibri;
     color: blanchedalmond;
     padding: 0;
     margin: 0;
-    background-image: url(../img/night_sky.jpg);
-    background-size: 100% 100%;
-    height: 1000px;
-    background-repeat: no-repeat;
 }
 header
 {
-    padding-left: 50px;
     padding-right: 50px;
     display: flex;
     background-color: rgb(27, 27, 27);
@@ -58,19 +52,20 @@ main
    display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.padding {
     padding-left: 50px;
 }
-footer 
+
+.content 
 {
     display: flex;
-    background-color: rgb(27, 27, 27);
-    height: 100px;
+    flex-direction: column;
+    background-image: url("../img/night_sky.jpg");
+    background-size: cover;
+    height: 100vh;
     justify-content: center;
-    align-items: center;
-}
-content 
-{
-    font-size: 150%;
 }
 button 
 {
@@ -98,4 +93,62 @@ footer p
 {
     height: 20px;
     margin: 0px;
+}
+
+section 
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    color: rgb(0, 0, 0);
+    min-height: 300px;
+    height: 350px;
+}
+
+.first_section
+{
+
+    background-color: rgb(219, 219, 219);
+}
+
+.services
+{
+    margin-top: 16px;
+}
+.services li 
+{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    border:  1px solid #000;
+    height: 250px;
+    width: 250px;
+    padding: 10px;
+}
+img 
+{
+    height: 100px;
+    width: 100px;
+}
+
+h3 
+{
+    margin: 0%;
+}
+.second_section 
+{
+    background-color: rgb(187, 187, 187);
+}
+
+footer 
+{
+    color: blanchedalmond;
+    display: flex;
+    background-color: rgb(27, 27, 27);
+    height: 100px;
+    justify-content: center;
+    align-items: center;
 }
