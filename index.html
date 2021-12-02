@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <title>Site</title>
     <link rel="stylesheet" href="css/styles.css">
-    <link rel="icon" href="icon.ico">
+    <link rel="icon" href="img/icon.ico">
 </head>
 <body class="margin_none">
     <header class="padding">
@@ -13,7 +13,7 @@
         </div>
 
         <nav class="navigation">
-            <ul class="margin_none">
+            <ul class="margin_none flex_ul">
                 <li><a href="">Главная</a></li>
                 <li><a href="">Услуги</a></li>
                 <li><a href="">О нас</a></li>
@@ -26,12 +26,12 @@
         <div class="content padding">
             <h2 class="margin_none">Главный заголовок сайта</h2>
             <p>И описание сайта, конечно же</p>
-            <button>Нажми</button>
+            <button class="f">Нажми</button>
         </div>
         
         <section class="first_section">
             <h2 class="margin_none">Услуги</h2>
-            <ul class="services">
+            <ul class="services flex_ul">
                 <li>
                     <img src="img/loupe.png" alt="ERROR_image_not_found">
                     <h3 class="margin_none">loupe</h3>
@@ -61,10 +61,37 @@
 
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta impedit in eligendi ratione. Id architecto voluptatibus sit accusamus provident obcaecati. Optio excepturi facilis fugit magnam dicta corrupti non numquam!</p>
         </section>
+        <section class="third_section">
+            <div class="padding">
+                <form action="#" enctype="multipart/form-data" method="get">
+                    <div class="contacts">
+                        <h2 class="margin_none">Контакты</h2>
+                        <input type="text" name="name" placeholder="Имя">
+                        <input type="tel" name="num" placeholder="Телефон">
+                        <button type="submit">Отправить</button>
+                    </div>
+                </form>
+            </div>
+            <div class="right">
+                <ul>
+                    <li>
+                        <img src="img/phone-call.png" alt="ERROR_image_not_found">
+                        <p class="margin_none">+7(499)995-55-55</p>
+                    </li>
+                    <li>
+                        <img src="img/email.png" alt="ERROR_image_not_found">
+                        <p class="margin_none">info@agency.ru</p>
+                    </li>
+                </ul>
+              
+                
+            </div>
+        </section>
     </main>
 
     <footer>
-       <p class="margin_none">Все права защищены</p>
+       <p class="margin_none">2021-2077 | Все права защищены</p>
     </footer>
 </body>
 </html>
+
